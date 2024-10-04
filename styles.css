@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  border: 1px solid black;
+  width: 70%;
+  height: 400px;
+  margin: 1em auto;
+}
+
+button {
+  font-size: 8em;
+}
